@@ -14,6 +14,6 @@ public class FunctionsTest {
     public void convertUTCTime() {
         int uptimeMils = 1536498497 ;
         String tiempoTranscurrido = Functions.convertUTCTime(uptimeMils);
-        assertEquals("8 hours ago", tiempoTranscurrido);
+        assertEquals("8 hours agof", tiempoTranscurrido);
     }
 }
